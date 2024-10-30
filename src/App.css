@@ -1,0 +1,109 @@
+
+
+.discount-calculator-container {
+  display: flex;
+  background: #7e57c2;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+.discount-display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ color: #48179e;
+ font-weight: bolder;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-image: url(https://i.pinimg.com/474x/35/d3/55/35d3559e12be7ae47b4d45d7a653909e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Arima", serif;
+
+  
+
+}
+.discount-display button{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #7e57c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:200px;
+}
+.discount-display button:hover{
+  background-color: #512da8;
+
+}
+
+.discount-display h1, .discount-display h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.calculator-input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #512da8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculator-input h3 {
+  color: #2e30a0;
+  margin-bottom: 10px;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+    text-align: center;
+    font-weight:bolder ;
+ 
+}
+.calculator-input p{
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.calculator-input label {
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.calculator-input input {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.calculator-input button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #7e57c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:200px;
+  margin-left: 120px;
+}
+
+.calculator-input button:hover {
+  background-color: #512da8;
+}
