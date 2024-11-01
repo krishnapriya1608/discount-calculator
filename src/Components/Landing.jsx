@@ -20,7 +20,7 @@ function Landing() {
             alt="graphic"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div" style={{marginLeft:"350px"}}>
+            <Typography gutterBottom variant="h5" component="div" style={{marginLeft:"350px",color:"blueviolet",fontWeight:"bolder"}}>
              Discount Calculator
             </Typography>
             <Button variant="contained" sx={{ marginLeft: "400px" ,marginBottom:"60px",}} onClick={handleButtonClick}>
